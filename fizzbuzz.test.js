@@ -7,6 +7,6 @@ describe('fizzbuzz', () => {
        expect(fizzbuzz(5)).toBe('Buzz');
    })
    it('fizzbuzz 15', () => {
-       expe
+       expect(fizzbuzz(15)).toBe('FizzBuzz');
    })
 });
